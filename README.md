@@ -4,10 +4,15 @@ This Python script enables real-time face detection using the NAO robot's camera
 
 **Features:**
 Connects to a NAO robot via IP address and port.
+
 Sets the robot to a crouch posture and keeps its head still.
+
 Streams RGB video from the NAO camera in VGA resolution (640x480).
+
 Detects faces in each frame and draws blue rectangles around them.
+
 Displays the number of detected faces on the video feed.
+
 Exits gracefully with 'q' key press, returning the robot to a rest position.
 
 **Requirements:**
